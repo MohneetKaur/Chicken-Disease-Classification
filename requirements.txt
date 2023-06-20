@@ -1,0 +1,18 @@
+# The requirements.txt file typically lists the dependencies (Python packages) required for a project
+tensorflow
+pandas 
+dvc # DVC (Data Version Control), which is a version control system for data and models. It allows you to track and manage changes to datasets and models.
+notebook
+numpy
+matplotlib
+seaborn
+python-box==6.0.2 # python-box is a utility library that provides a simple way to manage nested configurations in Python
+pyYAML # allows parsing and manipulating YAML files in Python
+tqdm # provides a fast, extensible progress bar for loops and tasks
+ensure==1.0.2
+joblib
+types-PyYAML # provides type hints for the PyYAML library
+scipy # provides a collection of numerical algorithms and tools
+Flask # web framework for building web applications in Python
+Flask-Cors # allows cross-origin resource sharing (CORS) support in Flask applications
+-e . # This line specifies that the project itself is an editable ("editable mode") dependency. The dot (.) represents the current directory, and the -e option indicates that the package is installed in development mode, allowing changes in the source code to be reflected immediately without reinstalling the package.
