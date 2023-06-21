@@ -1,0 +1,11 @@
+artifacts_root: artifacts
+
+
+data_ingestion: # Define a section for the data ingestion stage of the project
+  root_dir: artifacts/data_ingestion #  all data ingestion-related files and directories will be located within the artifacts/data_ingestion directory
+  source_URL: https://github.com/MohneetKaur/Chicken-Disease-Classification/raw/main/Chicken-fecal-images.zip # Provides a URL to download the data file for data ingestion
+  local_data_file: artifacts/data_ingestion/data.zip # path where the downloaded data file will be stored locally within the data ingestion directory
+  unzip_dir: artifacts/data_ingestion # the directory within the data ingestion stage where the downloaded zip file will be extracted/unzipped
+
+
+
